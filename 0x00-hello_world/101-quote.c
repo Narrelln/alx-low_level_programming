@@ -1,6 +1,6 @@
 [10:54 PM, 3/13/2022] eBucks Travel NG: #include<unistd.h>
 /**
- * main - prints the standard error sandwiched around the standard outpu/t
+ * main - prints the standard error sandwiched around the standard output
  *
  * Return: returns 1
  */
