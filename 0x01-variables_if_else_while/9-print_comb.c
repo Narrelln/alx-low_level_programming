@@ -1,31 +1,28 @@
 #include <stdio.h>
-/**
- * main - Entry point
- *
- * Return: Always 0 (Success)
- */
-int main(void)
+ /**
+  * main - main block
+  * Description: Print all possible combinations fo single-digit numbers.
+  * Numbers must be separated by commas and a space.
+  * You can only use `putchar` to print to console
+  * You can only use `putchar` up to four times.
+  * You are not allowed to use any variable of type `char`.
+  * Return: 0
+  */
+ int main(void)
+ {
+ 	int i = 0;
 
-{
-int number; /Decarling statement/
+ 	while (i < 10)
+ 	{
+ 		putchar(i + '0');
+ 		if (i < 9)
+ 		{
+ 			putchar(44);
+ 			putchar(32);
+ 		}
+ 		i++;
+ 	}
+ 	putchar('\n');
 
-/for 0-9 with (,)/
-for (number = 48; number <= 57; number++)
-{
-putchar(number); /print  number/
-
-/if the value is 9 in format ASCII break the program/
-if (number == 57)
-{
-break;
-}
-
-putchar(','); /print (,)/
-putchar (' '); /print a space/
-}
-
-putchar('\n');
-
-return (0);
-
-}
+ 	return (0);
+ }
