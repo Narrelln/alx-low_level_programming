@@ -7,7 +7,7 @@
  */
 void print_alphabet_x10(void)
 {
-int alphabet; /*Declaring statements*/
+int alphabet; /* Declaring statements */
 int count;
 
 count = 0;
